@@ -27,11 +27,13 @@ How to run:
         
         `brew services start mongodb-community@4.4`
         
+3) Change line 16 of app.js to your MongoDB connection string
+        
 
-3) Command to run application:
+4) Command to run application:
 
     `nodemon app`
 
-4) *Now go to any browser and type in*
+5) *Now go to any browser and type in*
 
    `http://localhost:3000/`
