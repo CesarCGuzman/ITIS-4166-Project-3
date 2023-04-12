@@ -13,7 +13,7 @@ const app = express();
 let port = 3000;
 let host = 'localhost';
 // %40 is used to replace an @ symbol in the password
-let url = 'mongodb+srv://ccastrog:Cguzman5%40@cluster0.dzpiztl.mongodb.net/nbda-project3?retryWrites=true&w=majority'
+let url = 'Your MongoDB string here'
 app.set('view engine', 'ejs');
 
 // Connect to database
