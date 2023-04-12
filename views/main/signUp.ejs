@@ -1,0 +1,20 @@
+<%- include('../partials/header.ejs') %>
+<div class="container-fluid mt-4">
+  <div class="container w-75">
+    <h3>Sign Up</h3>
+    <form action="/signUp" method="POST">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="email" class="form-control" id="password" name="password" placeholder="Password">
+      </div>
+      <div class="justify-content-end">
+        <input type="submit" value="Sign up" class="btn btn-lg btn-dark w-100 pt-3 pb-3">
+    </div>
+    </form>
+  </div>
+</div> 
+<%- include('../partials/footer.ejs') %>
